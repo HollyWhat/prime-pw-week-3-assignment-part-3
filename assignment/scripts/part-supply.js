@@ -41,8 +41,9 @@ console.log("checking the array", supplyChanges );
 console.log('6. Showing supplyChanges...');
 
 
-for(){
-    
+for(let i = 0; i >= supplyChanges.length; i++){
+    console.log('here are my supply changes', supplyChanges[i] );
+
 }
 
 
