@@ -41,12 +41,18 @@ console.log("checking the array", supplyChanges );
 console.log('6. Showing supplyChanges...');
 //let supplyChanges = [3, 5, -6, 0, 7, 25];
 
-for (let i = 0; i <= supplyChanges[i];  i++){
-    if(i > 0){
-        console.log("added x parts", supplyChanges );
+for(let i=0; i<supplyChanges.length; i++){
+    console.log('in the loop', supplyChanges[i]);
+    if(supplyChanges[i] > 0){
+        console.log("added x parts");
+    }
+    if( supplyChanges[i] === 0){
+        console.log("no change");
+    }
+    if(supplyChanges[i] < -1 ){
+        console.log("removed parts");
     }
 }
-
 
 
 
