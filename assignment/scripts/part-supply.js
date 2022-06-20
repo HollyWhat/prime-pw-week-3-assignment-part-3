@@ -39,11 +39,12 @@ console.log("checking the array", supplyChanges );
 //    - if the value is 0, log 'No Change.'
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...');
+//let supplyChanges = [3, 5, -6, 0, 7, 25];
 
-
-for(let i = 0; i >= supplyChanges.length; i++){
-    console.log('here are my supply changes', supplyChanges[i] );
-
+for (let i = 0; i <= supplyChanges[i];  i++){
+    if(i > 0){
+        console.log("added x parts", supplyChanges );
+    }
 }
 
 
